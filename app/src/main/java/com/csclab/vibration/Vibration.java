@@ -15,7 +15,7 @@ public class Vibration extends AppCompatActivity {
         Vibrator vb = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
 
         // Make devices vibrate for 5 sec
-        vb.vibrate(5000);
+        vb.vibrate(3000);
 
         // stop 0.01 sec and then vibrate 0.1 sec (repeat 3 times)
         vb.vibrate(new long[]{10, 100, 10, 100, 10, 100}, -1);
